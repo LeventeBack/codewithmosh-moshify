@@ -192,7 +192,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 3vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -278,6 +278,7 @@ a {
   flex-grow: 1;
   border: 0;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 .input-group .btn {
   margin: 4px;
@@ -495,6 +496,9 @@ a {
   color: white;
   background-color: var(--color-primary);
 }
+.callout-signup {
+  transform: translateY(5rem);
+}
 .callout__heading {
   color: white;
   margin-top: 0;
@@ -658,9 +662,10 @@ a {
   max-width: 670px;
 }
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 6rem);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 6rem);
   font-size: 2rem;
   font-weight: 600;
   justify-items: center;
